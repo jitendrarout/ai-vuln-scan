@@ -1,5 +1,8 @@
 # ai-vuln-scan
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22699620.svg)](https://doi.org/10.5281/zenodo.22699620)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **A static analysis scanner tuned to the specific vulnerability patterns
 AI coding assistants tend to introduce** — not a generic linter with
 security rules bolted on, but a tool built around a documented taxonomy
@@ -7,6 +10,15 @@ of *why* these specific patterns show up in AI-generated code.
 
 See [docs/PATTERN_CATALOG.md](docs/PATTERN_CATALOG.md) for the full,
 independently citable taxonomy this scanner is built against.
+
+## Citing this work
+
+If you use this tool or the pattern catalog in your own work, please cite:
+
+```
+Rout, J. (2026). Toward a Taxonomy of Vulnerability Patterns in
+AI-Assistant-Generated Code. Zenodo. https://doi.org/10.5281/zenodo.22699620
+```
 
 ## What it catches today
 
