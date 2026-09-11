@@ -2,6 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22699620.svg)](https://doi.org/10.5281/zenodo.22699620)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+📝 [Read the write-up: 7 Vulnerability Patterns in AI-Generated Code](https://dev.to/jitendrarout/7-vulnerability-patterns-i-found-in-ai-generated-code-and-how-to-catch-them-2gji)
 
 **A static analysis scanner tuned to the specific vulnerability patterns
 AI coding assistants tend to introduce** — not a generic linter with
