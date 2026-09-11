@@ -1,0 +1,16 @@
+{
+  "name": "ai-vuln-scan",
+  "version": "0.1.0",
+  "description": "A static analysis scanner tuned to the specific vulnerability patterns AI coding assistants tend to introduce.",
+  "main": "src/scanner.js",
+  "bin": {
+    "ai-vuln-scan": "bin/ai-vuln-scan.js"
+  },
+  "type": "commonjs",
+  "license": "MIT",
+  "keywords": ["security", "static-analysis", "ai", "code-review", "vulnerability-scanner"],
+  "scripts": {
+    "scan:examples": "node bin/ai-vuln-scan.js scan examples/vulnerable-samples"
+  },
+  "dependencies": {}
+}
