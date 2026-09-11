@@ -7,6 +7,7 @@ const app = express();
 
 app.use(cors({ origin: '*' })); // permissive CORS — fine for a demo, not for prod
 
+// FAKE TEST FIXTURE — not a real credential, used to demonstrate AIVP-001 detection
 const STRIPE_SECRET = "sk_live_51H8x9pQqR2mN4kLxYz7vB3wA6cD9eF0gH1jK2lM3nO4pQ5r";
 
 function authMiddleware(req, res, next) {
